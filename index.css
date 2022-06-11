@@ -1,0 +1,44 @@
+body {
+   text-align: center; 
+   background-color: lightblue;
+}
+
+h1 {
+    font-size: 75px;
+    color:steelblue
+}
+
+h2 {
+    font-size: 25px;
+}
+input {
+    height: 75px;
+    width: 75px;
+    margin: 2px;
+    font-size: 45px;
+    color:aliceblue; 
+    background-color:gray;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.container input {
+    vertical-align: top;
+}
+
+#reset {
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 20px ;
+}
+
+#owin {
+    color:crimson;
+    font-size: 30px;
+}
+
+#xwin {
+    color:midnightblue;
+    font-size: 30px;
+}

@@ -4,22 +4,25 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-    color:steelblue
+    font-size: 85px;
+    color:steelblue;
+    font-weight:bolder;
 }
 
 h2 {
     font-size: 25px;
+    color: steelblue
 }
+
 input {
-    height: 75px;
-    width: 75px;
+    height: 95px;
+    width: 95px;
     margin: 2px;
     font-size: 45px;
-    color:aliceblue; 
-    background-color:gray;
-    border-radius: 15px;
-    display: inline-block;
+    color:rgb(183, 197, 238); 
+    background-color: rgb(7, 23, 104);
+    border: 10px solid rgb(28, 27, 27);
+    border-radius: 35px;
 }
 
 .container input {
@@ -27,18 +30,9 @@ input {
 }
 
 #reset {
-    width: 200px;
-    height: 50px;
-    font-size: 2em;
-    margin-top: 20px ;
-}
-
-#owin {
-    color:crimson;
-    font-size: 30px;
-}
-
-#xwin {
-    color:midnightblue;
-    font-size: 30px;
+    width: 250px;
+    height: 75px;
+    font-size: 35px;
+    margin-top: 20px;
+    color:rgb(183, 197, 238);
 }

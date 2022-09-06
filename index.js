@@ -28,7 +28,7 @@ oWin.innerText = oWinCounter
 
 const winFunc = (player) => {// set of actions that take place after a win is determined - winning announcement, 
     winningAnouncement.innerText = `${player} won!!!`
-    alert(`${player} won!!!`)
+    // alert(`${player} won!!!`)
     roundOver = true
     whosTurn.innerText = "Click reset to play again"
 }
@@ -87,7 +87,7 @@ const gameFunc = () => { // function that runs the game - win determination, tur
         } else {
         event.target.value = "O"
         winningAnouncement.innerText = "Its a tie"
-        alert("Its a tie")
+        // alert("Its a tie")
         whosTurn.innerText = "Click reset to play again"
         }    
     }
